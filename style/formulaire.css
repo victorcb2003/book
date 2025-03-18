@@ -10,6 +10,10 @@ form {
     text-align: center;
 }
 
+#deco button {
+    background-color: red;
+}
+
 label {
     display: block;
     font-weight: bold;
