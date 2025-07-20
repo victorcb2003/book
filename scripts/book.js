@@ -104,7 +104,7 @@ function afficher(element) {
 
 //  envoie des données du book dans book_DB.php
 function POST(data) {
-    fetch("../Utils/book_DB.php", {
+    fetch("./Utils/book_DB.php", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
